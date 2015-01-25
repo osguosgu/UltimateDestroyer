@@ -11,8 +11,8 @@ public class Arena {
 	
 	public static void main(String[] args) {
 		
-		Player p1 = new WinnerBot(new Random());
-		Player p2 = new RandomBot(new Random());
+		Player p1 = new WinnerBot(new Random() );
+		Player p2 = new RandomBot(new Random() );
 		
 		System.out.println(Runner.log(p1, p2));
 	}
