@@ -14,6 +14,6 @@ public class Arena {
 		Player p1 = new WinnerBot(new Random() );
 		Player p2 = new RandomBot(new Random() );
 		
-		System.out.println(Runner.log(p1, p2));
+		System.out.println(Runner.game(p1, p2));
 	}
 }
