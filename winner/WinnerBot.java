@@ -31,6 +31,7 @@ public class WinnerBot implements Player {
 	public void start(Engine engine, Side side) {
 		this.engine = engine;
 		this.mySide = side;
+		
 	}
 	
 	public Move move(Situation situation, int timeLeft) {
