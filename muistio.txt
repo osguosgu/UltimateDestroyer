@@ -1,0 +1,40 @@
+situation turvaan ekalla kierroksella ja sitten rekursiolla vaan scoree tai move turvaan miten aamulla näkee parhaiten
+
+
+
+iske siihen kuka antaa usealle paljon voimaa varsinkin jos vastustaja hyökkäämässä eikä voi tehdä mitään
+
+jos vastustajala palon hyökkäysvoimaa tee siirto joka blokkaa hyvin syöntimahikset
+
+nappuloiden kokonaisarvo
+
+paikan pisteytäminen:
+
+-oma voima jos oman alueen ulkopuolella
+-vastustajan ulottuvilla?
+-kuinka monta vastustajaa ulottuvilla
+
+oppimista:
+
+minkälaisia aloituksia vastustaja tekee.
+osuuko vastustajan siirrot yleensä samoin kuin oma toteutus tekisi
+
+//
+//function minimax(node, depth, maximizingPlayer)
+//if depth = 0 or node is a terminal node
+//    return the heuristic value of node
+//if maximizingPlayer
+//    bestValue := -
+//    for each child of node
+//        val := minimax(child, depth - 1, FALSE)
+//        bestValue := max(bestValue, val)
+//    return bestValue
+//else
+//    bestValue := +
+//    for each child of node
+//        val := minimax(child, depth - 1, TRUE)
+//        bestValue := min(bestValue, val)
+//    return bestValue
+//
+//(* Initial call for maximizing player *)
+//minimax(origin, depth, TRUE)
