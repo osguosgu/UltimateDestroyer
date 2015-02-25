@@ -51,7 +51,6 @@ public class WinnerBot implements Player {
 			if (maxScore < score){
 				maxScore = score;
 				maxMove = move;
-				
 			}
 		}
 		
