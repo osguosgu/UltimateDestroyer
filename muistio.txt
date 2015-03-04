@@ -8,6 +8,10 @@ jos vastustajala palon hyökkäysvoimaa tee siirto joka blokkaa hyvin syöntimahiks
 
 nappuloiden kokonaisarvo
 
+jos häviöllä niin kannattaa keskittyä yhden ulkopaikan suojelemiseen muuten kannattaa ottaa haltuun kaksi tai kolme
+
+säilytä identtiset tilanteet jotta voi lopettaa identtisen noden käsittelyn
+
 paikan pisteytäminen:
 
 -oma voima jos oman alueen ulkopuolella
